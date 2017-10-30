@@ -170,6 +170,7 @@ footer .wrapper{
 
 #content{
   margin: 57px auto 20px auto;
+  padding: 0 10px;
 }
 
 #unterzeichnerinnen h1{margin-bottom:0;}
@@ -211,16 +212,13 @@ footer h1 {
 /*Small Screen Ende*/
 
 /*Formular*/
-#mainform{
-    width:900px;
-}
 #form{
     border-radius:2px;
     padding: 10px 20px 30px 20px;
     box-shadow:0 0 15px;
     font-size:14px;
     font-weight:bold;
-    width:350px;
+    max-width:350px;
     margin:0 auto;
 }
 
