@@ -3,11 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Team Solidaritätspakt
+    - und -
+    Convive* Labor für das gute Leben - https://www.convive.io/
 
 # THANKS
 
-    <name>
+    Der Dank gebührt all jenen, die für eine freie Gesellschaft auf die Straße gehen!
 
 # TECHNOLOGY COLOPHON
 
