@@ -97,6 +97,32 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /*Desktop*/
+html {
+   font-family: 'MetropolisRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+#logo {margin:0;}
+#logo img {
+  width: 100%;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #552B46
+}
+
+a{
+  color: #552B46;
+}
+
+a:hover{
+  color: #9c6787;
+}
+
+footer {color: #552B46;}
+
 /*Layout*/
 #content,
 footer .wrapper{
@@ -142,10 +168,26 @@ footer .wrapper{
 }
 /*Menü ende*/
 /*Content*/
+
 #content{
   margin: 57px auto 20px auto;
 }
+
+#unterzeichnerinnen h1{margin-bottom:0;}
+
+#erstunterzeichnerinnen img{
+  width: 15%;
+  padding: 5px;
+}
 /*Content Ende*/
+
+/* Small Screen*/
+@media screen and (max-width: 900px){
+  #erstunterzeichnerinnen img{
+    width: 45%;
+  }
+}
+/*Small Screen Ende*/
 
 /*footer*/
 footer {
