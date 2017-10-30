@@ -96,7 +96,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*Desktop*/
 html {
    font-family: 'MetropolisRegular';
    font-weight: normal;
@@ -181,6 +180,28 @@ footer .wrapper{
 }
 /*Content Ende*/
 
+/*footer*/
+footer {
+  background-color: #fcf7ff;
+  box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer .wrapper{
+  margin: 15px auto;
+  padding:15px;
+}
+
+footer h1 {
+    font-size: 1em;
+    margin: 0;
+  }
+
+  #umsetzung {
+    margin-top:35px;
+    font-size:0.75em;
+  }
+/*footer ende */
+
 /* Small Screen*/
 @media screen and (max-width: 900px){
   #erstunterzeichnerinnen img{
@@ -188,19 +209,6 @@ footer .wrapper{
   }
 }
 /*Small Screen Ende*/
-
-/*footer*/
-footer {
-  background-color: #fcf7ff;
-  box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.2);
-}
-footer .wrapper{
-  margin: 15px auto;
-  padding:15px;
-}
-/*footer ende */
-
-/*Desktop Ende*/
 
 
 
