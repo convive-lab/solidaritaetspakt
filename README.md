@@ -1,0 +1,2 @@
+# solidaritaetspakt
+Website solidaritätspakt.org 
