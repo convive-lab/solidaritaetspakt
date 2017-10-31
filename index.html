@@ -24,9 +24,10 @@
 			<nav id="menu" role="navigation">
 				<ul id="menu-one-page" class="menu">
 					<li id="menu-item-1" class="menu-item"><a href="#solidaritaetspakt">Solidaritätspakt</a></li>
-					<li id="menu-item-3" class="menu-item"><a href="#unterzeichnerinnen">Unterzeichner*innen</a></li>
-					<li id="menu-item-3" class="menu-item"><a href="#unterzeichnen">Unterzeichnen</a></li>
-					<li id="menu-item-4" class="menu-item"><a href="#kontakt">Kontakt</a></li>
+          <li id="menu-item-2" class="menu-item"><a href="#unterzeichnen">Unterzeichnen</a></li>
+          <li id="menu-item-3" class="menu-item"><a href="#initiatorinnen">Initiator*innen</a></li>
+					<li id="menu-item-4" class="menu-item"><a href="#unterzeichnerinnen">Unterzeichner*innen</a></li>
+					<li id="menu-item-5" class="menu-item"><a href="#kontakt">Kontakt</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -58,8 +59,28 @@
         <a target="_blank" href="http://bit.ly/2fJNFy9"><img src="img/pk_foto_web.jpg" /></a>
       </section>
 
-      <section id="unterzeichnerinnen">
-        <h1>Unterzeichner*innen</h1>
+      <section id="unterzeichnen">
+        <h1>Den Solidaritätspakt unterzeichnen</h1>
+          <div id="mainform">
+            <form id="form">
+              <p id="returnmessage"></p>
+              <label>Name der Organisation: <span>*</span></label>
+              <input type="text" id="oname" placeholder="Name der Organisation"/>
+              <label>Ihr Name: <span>*</span></label>
+              <input type="text" id="name" placeholder="Ihr Name"/>
+              <label>E-Mail: <span>*</span></label>
+              <input type="text" id="email" placeholder="E-Mail"/>
+              <label>Telefonnummer: <span>*</span></label>
+              <input type="text" id="contact" placeholder="Telefonnummer"/>
+              <label>Ihre Nachricht</label>
+              <textarea id="message" placeholder="Ihre Nachricht..."></textarea>
+              <input type="button" id="submit" value="Nachricht Absenden"/>
+            </form>
+           </div>
+      </section>
+
+      <section id="initiatorinnen">
+        <h1>Initiator*innen</h1>
         <div id="erstunterzeichnerinnen">
           <a target="_blank" href="https://www.attac.at/"><img src="img/unterzeichnerinnen/attac.jpg" title="Attac Österreich" /></a>
           <a target="_blank" href="https://epicenter.works/"><img src="img/unterzeichnerinnen/epicenter.jpg" title="Epicenter" /></a>
@@ -75,24 +96,12 @@
         </div>
       </section>
 
-      <section id="unterzeichnen">
-        <h1>Den Solidaritätspakt unterzeichnen</h1>
-          <div id="mainform">
-    				<form id="form">
-      				<p id="returnmessage"></p>
-              <label>Name der Organisation: <span>*</span></label>
-              <input type="text" id="oname" placeholder="Name der Organisation"/>
-              <label>Ihr Name: <span>*</span></label>
-              <input type="text" id="name" placeholder="Ihr Name"/>
-      				<label>E-Mail: <span>*</span></label>
-              <input type="text" id="email" placeholder="E-Mail"/>
-              <label>Telefonnummer: <span>*</span></label>
-              <input type="text" id="contact" placeholder="Telefonnummer"/>
-      				<label>Ihre Nachricht</label>
-              <textarea id="message" placeholder="Ihre Nachricht..."></textarea>
-      				<input type="button" id="submit" value="Nachricht Absenden"/>
-            </form>
-  		     </div>
+      <section id="unterzeichnerinnen">
+        <h1>Unterzeichner*innen</h1>
+        <ul>
+          <li>Welten des Wandels</li>
+          <li>Förderverein kontemplativer Kontemplationen</li>
+        </ul>
       </section>
 
     </main>
