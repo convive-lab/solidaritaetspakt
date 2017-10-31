@@ -8,8 +8,8 @@ window.onload = function() {
 $('div.aufklapper').expander({
     slicePoint:       0,  // default is 100
     expandPrefix:     ' ', // default is '... '
-    expandText:       '>>mehr lesen', // default is 'read more'
-    userCollapseText: 'zuklappen<<'  // default is 'read less'
+    expandText:       '>> mehr lesen', // default is 'read more'
+    userCollapseText: '<< schließen'  // default is 'read less'
   });
 
 //Smooth Scroll
