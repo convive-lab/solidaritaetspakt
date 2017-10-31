@@ -1,6 +1,7 @@
 <?php
 //Fetching Values from URL
 $name = $_POST['name1'];
+$oname = $_POST['oname1'];
 $email = $_POST['email1'];
 $message = $_POST['message1'];
 $contact = $_POST['contact1'];
@@ -8,7 +9,7 @@ $contact = $_POST['contact1'];
 $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 //After sanitization Validation is performed
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-if (!preg_match("/^[0-9]{10}$/", $contact)) {
+if (!preg_match("/^[0-9]{20}$/", $contact)) {
 echo "<span>* Please Fill Valid Contact No. *</span>";
 } else {
 $subject = $name;
@@ -19,6 +20,7 @@ $headers .= 'From:' . $email. "\r\n"; // Sender's Email
 $headers .= 'Cc:' . $email. "\r\n"; // Carbon copy to Sender
 $template = '<div style="padding:50px; color:white;">Hello ' . $name . ',<br/>'
 . '<br/>Vielen Dank für ihr Interesse!<br/><br/>'
+. 'Organisation:' . $oname . '<br/>'
 . 'Name:' . $name . '<br/>'
 . 'Email:' . $email . '<br/>'
 . 'Contact No:' . $contact . '<br/>'
