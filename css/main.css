@@ -228,11 +228,11 @@ footer .wrapper{
 
 footer h1 {
     font-size: 1em;
-    margin: 0;
+    margin: 5px 0 0;
   }
 
   #umsetzung {
-    margin-top:35px;
+    margin-top:20px;
     font-size:0.75em;
   }
 /*footer ende */
