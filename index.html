@@ -62,19 +62,25 @@
       <section id="unterzeichnen">
         <h1>Den Solidaritätspakt unterzeichnen</h1>
           <div id="mainform">
-            <form id="form">
+            <form id="form" method="post" action="https://epicenter.works/webform-solidaritaetspakt">
               <p id="returnmessage"></p>
               <label>Name der Organisation: <span>*</span></label>
-              <input type="text" id="oname" placeholder="Name der Organisation"/>
+              <input type="text" id="oname" name="submitted[oname]" placeholder="Name der Organisation"/>
               <label>Ihr Name: <span>*</span></label>
-              <input type="text" id="name" placeholder="Ihr Name"/>
+              <input type="text" id="name" name="submitted[name]" placeholder="Ihr Name"/>
               <label>E-Mail: <span>*</span></label>
-              <input type="text" id="email" placeholder="E-Mail"/>
+              <input type="text" id="email" name="submitted[email]" placeholder="E-Mail"/>
               <label>Telefonnummer: <span>*</span></label>
-              <input type="text" id="contact" placeholder="Telefonnummer"/>
+              <input type="text" id="contact" name="submitted[contact]" placeholder="Telefonnummer"/>
               <label>Ihre Nachricht</label>
-              <textarea id="message" placeholder="Ihre Nachricht..."></textarea>
-              <input type="button" id="submit" value="Nachricht Absenden"/>
+              <textarea id="message" name="submitted[message]" placeholder="Ihre Nachricht..."></textarea>
+              <input type="hidden" name="details[page_num]" value="1">
+              <input type="hidden" name="details[page_count]" value="1">
+              <input type="hidden" name="details[finished]" value="0">
+              <input type="hidden" name="form_build_id" value="form-KRAobpcGafVLbsOZjRZpWkUvPRF4Epn69HSwVgxIg88">
+              <input type="hidden" name="form_token" value="xU1fjF4CAGxbbRuD6julhZZfu-_0BI6OA6Awo2S0Yog">
+              <input type="hidden" name="form_id" value="webform_client_form_773">
+              <input type="submit" id="submit" value="Nachricht Absenden"/>
             </form>
            </div>
       </section>
