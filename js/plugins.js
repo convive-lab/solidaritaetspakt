@@ -36,18 +36,8 @@ $("#submit").click(function(){
 //checking for blank fields
 if(name==''||oname==''||email==''||contact=='')
 {
-   alert("Bitte füllen Sie alle Pflichtfelder aus!");
+   alert("Bitte füllen Sie alle Pflichtfelder aus! Sie werden zu Epicenter.works weitergeleitet.");
 }
-else{
-// Returns successful data submission message when the entered information is stored in database.
-$.post("contact_form.php",{ name1: name, oname1: oname, email1: email, message1:message, contact1: contact},
-   function(data) {
-                $("#returnmessage").append(data);//Append returned message to message paragraph
-					if(data=="Die Anfrage wurde Versendet, wir melden uns in Kürze!"){
-						$("#form")[0].reset();//To reset form fields on success
-					}
-			});
-         }
 
 });
 });
